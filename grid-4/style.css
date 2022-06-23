@@ -1,0 +1,37 @@
+
+.body {
+  width: 50%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+                        "site1 site2 site3"
+                        "site1 site4 site3"
+                        "site5 site4 site3"
+                        "site5 site6 site3";
+  gap: 10px;
+}
+.body-1 {
+  grid-area: site1;
+  background-color: #333;
+}
+.body-2 {
+  grid-area: site2;
+  background-color: #333;
+}
+.body-3 {
+  grid-area: site3;
+  background-color: #333;
+}
+.body-4 {
+  grid-area: site4;
+  background-color: #333;
+}
+.body-5 {
+  grid-area: site5;
+  background-color: #333;
+}
+.body-6 {
+  grid-area: site6;
+  background-color: #333;
+}

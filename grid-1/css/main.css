@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: grid;
+    width: 50%;
+    grid-template-areas: "header header header nav"
+                         "aside aside aside nav"
+                         "aside aside aside footer"
+                         "main section section section";
+}
+header{
+    background-color: #333;
+    grid-area: header;
+    height: 300px;
+    margin: 5px;
+}
+nav{
+    background-color: #333;
+    grid-area: nav;
+    height: 400px;
+    margin: 5px;
+}
+aside{
+    background-color: #333;
+    grid-area: aside;
+    height: 650px;
+    margin: 5px;
+}
+footer{
+    background-color: #333;
+    grid-area: footer;
+    height: 530px;
+    margin: 5px;
+}
+main{
+    background-color: #333;
+    grid-area: main;
+    height: 250px;
+    margin: 5px;
+}
+section{
+    background-color: #333;
+    grid-area: section;
+    height: 250px;
+    margin: 5px;
+}

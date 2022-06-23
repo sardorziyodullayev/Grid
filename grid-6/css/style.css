@@ -1,0 +1,49 @@
+.head {
+  width: 50%;
+  height: 1500px;
+  display: grid;
+  grid-template-areas:
+    "site1 site2 site3 site4"
+    "site1 site5 site5 site4"
+    "site1 site5 site5 site9"
+    "site1 site5 site5 site9"
+    "site6 site7 site8 site9"
+    "site6 site7 site8 site9";
+  gap: 10px;
+}
+.head-1 {
+  grid-area: site1;
+  background-color: #333;
+}
+.head-2 {
+  grid-area: site2;
+  background-color: #333;
+}
+.head-3 {
+  grid-area: site3;
+  background-color: #333;
+}
+.head-4 {
+  grid-area: site4;
+  background-color: #333;
+}
+.head-5 {
+  grid-area: site5;
+  background-color: #333;
+}
+.head-6 {
+  grid-area: site6;
+  background-color: #333;
+}
+.head-7 {
+  grid-area: site7;
+  background-color: #333;
+}
+.head-8 {
+  grid-area: site8;
+  background-color: #333;
+}
+.head-9 {
+  grid-area: site9;
+  background-color: #333;
+}
